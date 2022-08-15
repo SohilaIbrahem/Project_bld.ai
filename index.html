@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Montserrat:wght@300&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> -->
+  <!-- <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> -->
 </head>
+
+
+
 <body>
 
+ 
     <div class="header">
         <div class="layer">
             <div class="layer-content">
@@ -27,17 +32,19 @@
     <nav class="navbar">
         <ul>
             <li class="logo">
-                <img src="logo.jPG" alt="logo">
+                <img src="images/logo.jPG" alt="logo">
             </li>
             <li   class="category">Catigories </li>
             <li class="search-bar" > 
                
                 <form action="">
-                    <button  class="search-btn" type="submit" ><i class="fa fa-search" aria-hidden="true"></i> </button>
-                    <input type="text" name="search" placeholder="Search for anything">
+                    <button  class="search-btn" type="submit" id="search-btn" ><i class="fa fa-search" aria-hidden="true"></i> </button>
+                    <input type="text" name="search" placeholder="Search for anything" id="search">
+
                     <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
                     <!-- <li class="searh-icon"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li> -->
                 </form>
+               
 
                 <div class="list">
 
@@ -81,18 +88,25 @@
     <div class="container-2">
         <div class="intro">
             <h2> Expand your career opportunities with python </h2>
-          <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn 
+          <p>Take one of Udemy,range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn 
             how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</p>
            <br>
           <button class="btn-explore">Explore Python</button>
           </div>
+
+          </div>
+
+
+   <div class="course-list"  id="courseGenerator"></div>
+
+
+<!--     
     
-    
-         <div class="course-list">
+         <div id ="demo" class="course-list">
             <div class="course course-1">
                 <img src="images/pic-1.jpg" alt="photo">
                 <h3>Learn pythonthe complete python programming course</h3>
-                <p>Jose Portilla</p>
+                <p >Jose Portilla</p>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -190,9 +204,7 @@
         <span>Marketing</span>
     </div>
    </div>
-  
-    <footer>
-
-    </footer>
+   -->
+    <script src="main.js"></script>
 </body>
 </html>
